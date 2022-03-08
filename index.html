@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/74f5d82ab4.js" crossorigin="anonymous"></script>
+    <title>Projeto 02 - Landing Page</title>
+</head>
+
+<body>
+    <div id="secao-inicial">
+        <header>
+            <!-- Aqui ele carrega duas classes, a wrapper e a flex; -->
+            <nav class="wrapper flex">
+                <a href="#">
+                    <h3 id="logo">Projeto Landing Page</h3>
+                </a>
+                <div id="links-secoes">
+                    <a href="#">Secao1</a>
+                    <a href="#">Secao2</a>
+                </div>
+                <a href="#" class="btn btn_menu">
+                    <h3>Botão</h3>
+                </a>
+            </nav>
+        </header>
+        <section id="conteudo-inicial">
+            <div class="wrapper flex">
+                <div id="conteudo-esq">
+                    <h1 class="animate-inicial-texto">Lorem Ipsum <br> dolor sit amet!</h1>
+                    <p class="animate-inicial-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cum cupiditate ullam
+                        voluptates officia ipsum reprehenderit alias quas fugit</p>
+                    <a href="#" class="btn animate-inicial-texto">Entre em Contato</a>
+                </div>
+                <img class="animate-inicial-img" id="imagem-1" src="./IMG/img1.svg"
+                    alt="Pessoa com um notebook apoiado na perna e cheirando uma flor em uma sala em frente a uma janela e admirando a existência das pequenas coisas">
+            </div>
+        </section>
+    </div>
+    <main>
+        <section id="secao-artigos">
+            <h2>Artigos</h2>
+            <div class="wrapper flex">
+                <section class="animate-artigos" id="artigos-principais">
+                    <h3>Gostamos Muito de Lorem Ipsum!!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe commodi porro, veniam nihil quis
+                        minima doloremque animi ratione optio at, nisi pariatur repudiandae alias. Numquam pariatur
+                        eaque accusantium cum aliquam.</p>
+                    <div id="cards" class="flex">
+                        <article class="card">
+                            <header class="cabecalho_card flex">
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <div class="conteudo_card">
+                                <h4>Card 1</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, in minima nihil,
+                                    impedit a, fugiat atque necessitatibus facere provident ex maxime praesentium
+                                    similique totam ut iste nam voluptates quis et?</p>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <header class="cabecalho_card flex">
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <div class="conteudo_card">
+                                <h4>Card 2</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, in minima nihil,
+                                    impedit a, fugiat atque necessitatibus facere provident ex maxime praesentium
+                                    similique totam ut iste nam voluptates quis et?</p>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <header class="cabecalho_card flex">
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <div class="conteudo_card">
+                                <h4>Card 3</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, in minima nihil,
+                                    impedit a, fugiat atque necessitatibus facere provident ex maxime praesentium
+                                    similique totam ut iste nam voluptates quis et?</p>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <header class="cabecalho_card flex">
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <div class="conteudo_card">
+                                <h4>Card 4</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, in minima nihil,
+                                    impedit a, fugiat atque necessitatibus facere provident ex maxime praesentium
+                                    similique totam ut iste nam voluptates quis et?</p>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <header class="cabecalho_card flex">
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <div class="conteudo_card">
+                                <h4>Card 5</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, in minima nihil,
+                                    impedit a, fugiat atque necessitatibus facere provident ex maxime praesentium
+                                    similique totam ut iste nam voluptates quis et?</p>
+                            </div>
+                        </article>
+                        <article class="card">
+                            <header class="cabecalho_card flex">
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <div class="conteudo_card">
+                                <h4>Card 6</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, in minima nihil,
+                                    impedit a, fugiat atque necessitatibus facere provident ex maxime praesentium
+                                    similique totam ut iste nam voluptates quis et?</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <aside class="animate-artigos" id="artigos-destaque">
+                    <h3>Lorem Ipsum em Destaque</h3>
+                    <div id="cards-destaque">
+                        <article class="card_destaque">
+                            <header class="cabecalho_card flex">
+                                <!-- Aqui o flex manda o icone para outro lado e é colocado na tag pai-->
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <h4>Card 1</h4>
+                        </article>
+                        <article class="card_destaque">
+                            <header class="cabecalho_card flex">
+                                <!-- Aqui o flex manda o icone para outro lado e é colocado na tag pai-->
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <h4>Card 2</h4>
+                        </article>
+                        <article class="card_destaque">
+                            <header class="cabecalho_card flex">
+                                <!-- Aqui o flex manda o icone para outro lado e é colocado na tag pai-->
+                                <p>09 de fev, 2022</p>
+                                <i class="far fa-heart"></i>
+                            </header>
+                            <h4>Card 3</h4>
+                        </article>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+    <section id="secao-final">
+        <div class="wrapper">
+            <div id="conteudo-final">
+                <div id="conteudo-final" class="flex">
+                    <div id="conteudo-final-textos">
+                        <h2 class="animate-final">Lorem Ipsum dolor sit amet!</h2>
+                        <p class="animate-final">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo hic atque minima non, ea
+                            debitis sequi, ut nam velit veritatis incidunt</p>
+                    </div>
+                    <img class="animate-final" id="imagem-2" src="./IMG/img2.svg" alt="Duas pessoas comemorando algo indescritível">
+                </div>
+            </div>
+            <a href="#" class="btn btn_final animate-final">Entre em Contato</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Todos os direito reservados ao lorem</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
